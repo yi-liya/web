@@ -1,4 +1,4 @@
-const API = 'https://yi-liya.github.io/web/api/time'; // 后面换成你自己的
+const API = 'https://web-production-xxx.up.railway.app/api/time';
 document.getElementById('btn').addEventListener('click', async () => {
   try {
     const r = await fetch(API);
